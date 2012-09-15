@@ -1,0 +1,19 @@
+.top-bar{
+	background:#000;
+	height:10px;
+}
+
+.logo{display:block;
+	margin:0 auto;}
+/*
+dl.tabs-centered dd:first-child{
+	margin-left:33.3%;
+}*/
+
+dl.tabs-centered dd:first-child{
+	margin:0 auto;
+}
+
+.check{
+	background:#ff0000;
+}
