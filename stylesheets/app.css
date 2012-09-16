@@ -5035,3 +5035,39 @@ div.progress.round .meter {
   -o-border-radius: 1000px;
   border-radius: 1000px;
 }
+
+/* line 1, ../sass/_stagelighter.scss */
+body {
+  background: #000;
+}
+
+/* line 4, ../sass/_stagelighter.scss */
+.top-line {
+  background: #a11836;
+  height: 10px;
+}
+
+/* line 11, ../sass/_stagelighter.scss */
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+/*
+dl.tabs-centered dd:first-child{
+	margin-left:33.3%;
+}*/
+/* line 18, ../sass/_stagelighter.scss */
+dl.tabs-centered dd:first-child {
+  margin: 0 auto;
+}
+
+/* line 22, ../sass/_stagelighter.scss */
+.centered-text {
+  text-align: center;
+}
+
+/* line 24, ../sass/_stagelighter.scss */
+.check {
+  background: #ff0000;
+}
