@@ -90,7 +90,7 @@ body {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1;
-  color: #222222;
+  color: #aeaeae;
   position: relative;
   -webkit-font-smoothing: antialiased;
 }
@@ -3784,7 +3784,7 @@ dl.tabs dd {
 }
 /* line 15, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_tabs.scss */
 dl.tabs dd a {
-  color: #6f6f6f;
+  color: #fbfbfb;
   display: block;
   font-size: 14px;
   height: 40px;
@@ -3804,7 +3804,7 @@ dl.tabs dd.active {
 /* line 19, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_tabs.scss */
 dl.tabs dd.active a {
   cursor: default;
-  color: #3c3c3c;
+  color: #c8c8c8;
   background: #fff;
   border-left: 1px solid #e6e6e6;
   border-right: 1px solid #e6e6e6;
@@ -5038,36 +5038,173 @@ div.progress.round .meter {
 
 /* line 1, ../sass/_stagelighter.scss */
 body {
-  background: #000;
+  background: black;
 }
 
-/* line 4, ../sass/_stagelighter.scss */
+/* line 3, ../sass/_stagelighter.scss */
 .top-line {
-  background: #a11836;
-  height: 10px;
+  background: #a71f30;
+  height: 7px;
 }
 
-/* line 11, ../sass/_stagelighter.scss */
+/* line 9, ../sass/_stagelighter.scss */
 .logo {
+  padding-top: 5px;
   display: block;
   margin: 0 auto;
 }
 
-/*
-dl.tabs-centered dd:first-child{
-	margin-left:33.3%;
-}*/
-/* line 18, ../sass/_stagelighter.scss */
+/* line 15, ../sass/_stagelighter.scss */
 dl.tabs-centered dd:first-child {
-  margin: 0 auto;
+  margin-left: 10.5%;
 }
 
-/* line 22, ../sass/_stagelighter.scss */
+/* line 17, ../sass/_stagelighter.scss */
 .centered-text {
   text-align: center;
 }
 
+/* line 19, ../sass/_stagelighter.scss */
+dl.tabs dd {
+  width: 25%;
+}
+
+/* line 20, ../sass/_stagelighter.scss */
+dl.tabs dd a {
+  text-align: center;
+}
+
 /* line 24, ../sass/_stagelighter.scss */
+h1 {
+  display: none;
+}
+
+/* line 28, ../sass/_stagelighter.scss */
+h2.tagline {
+  color: #aeaeae;
+  font-size: 17px;
+  margin-top: 0px;
+  font-family: "Magneta Condensed Bold", Georgia, 'Times New Roman', serif;
+  font-size-adjust: .48;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 35, ../sass/_stagelighter.scss */
+h3 {
+  color: white;
+}
+
+/* line 39, ../sass/_stagelighter.scss */
+#instructions-W92D76QR {
+  font-family: "Magneta Condensed Bold", Georgia, 'Times New Roman', serif;
+  font-size-adjust: .48;
+  font-weight: bold;
+  font-style: normal;
+  color: #aeaeae;
+}
+
+/* line 44, ../sass/_stagelighter.scss */
+.lrdiscoverwidget .inviteform {
+  margin: 0;
+}
+
+/* line 45, ../sass/_stagelighter.scss */
+.lrdiscoverwidget .inviteform .field {
+  margin: 0 4px 0 25px;
+}
+
+/* line 46, ../sass/_stagelighter.scss */
+.lrdiscoverwidget .site {
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 50, ../sass/_stagelighter.scss */
+  .tabs-centered span {
+    display: none;
+  }
+}
+/* line 52, ../sass/_stagelighter.scss */
+dl.tabs {
+  margin-bottom: 0;
+  border-bottom: 1px solid #a71f30;
+}
+
+/* line 56, ../sass/_stagelighter.scss */
+dl.tabs dd a {
+  background: #a71f30;
+  color: #aaaaaa;
+  font-family: "Magneta Condensed Bold", Georgia, 'Times New Roman', serif;
+  font-size-adjust: .48;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 61, ../sass/_stagelighter.scss */
+dl.tabs dd.spacer {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+/* line 65, ../sass/_stagelighter.scss */
+.tabbed {
+  background: #222222;
+  color: #e5e5e5;
+}
+/* line 68, ../sass/_stagelighter.scss */
+.tabbed ol, .tabbed ul {
+  list-style-position: outside;
+}
+
+/* line 73, ../sass/_stagelighter.scss */
+.tabbed ol {
+  margin-bottom: 15px;
+}
+
+/* line 78, ../sass/_stagelighter.scss */
+.tabbed .panel {
+  color: #222222;
+}
+/* line 80, ../sass/_stagelighter.scss */
+.tabbed .panel h3 {
+  color: #555555;
+}
+
+/* line 85, ../sass/_stagelighter.scss */
+dl.tabs dd.active {
+  border-top: 3px solid #a71f30;
+}
+/* line 87, ../sass/_stagelighter.scss */
+dl.tabs dd.active a {
+  color: #aeaeae;
+  background: #222222;
+  border-color: #a71f30;
+}
+
+/*
+@media only screen and (min-width: 960px) {  
+	.tabs-content .twelve{
+		width:960px;
+	}
+}*/
+/* line 100, ../sass/_stagelighter.scss */
+ul.tabs-content {
+  margin: 0;
+}
+
+/* line 103, ../sass/_stagelighter.scss */
+ul.tabs-content .tabbed {
+  padding-top: 50px;
+}
+
+/* line 106, ../sass/_stagelighter.scss */
+.copyright {
+  margin-bottom: 0;
+  padding: 4% 0 4% 0;
+}
+
+/* line 111, ../sass/_stagelighter.scss */
 .check {
   background: #ff0000;
 }

@@ -1,0 +1,111 @@
+body{background:$black;}
+
+.top-line{
+	background:$topLine;
+	height:7px;
+}
+
+
+.logo{
+	padding-top:5px;
+	display:block;
+	margin:0 auto;
+}
+
+dl.tabs-centered dd:first-child{margin-left:10.5%;}
+
+.centered-text{text-align:center;}
+
+dl.tabs dd{width:25%;}
+dl.tabs dd a{
+	text-align:center;
+}
+
+h1{
+	display:none;
+}
+
+h2.tagline{
+	color:$txtColor;
+	font-size: ms(1);
+	margin-top:0px;
+	font-family:"Magneta Condensed Bold", Georgia, 'Times New Roman', serif; font-size-adjust:.48; font-weight:bold; font-style:normal;
+}
+
+h3{
+	color:$tabHeading;
+}
+
+#instructions-W92D76QR{
+	font-family:"Magneta Condensed Bold", Georgia, 'Times New Roman', serif; font-size-adjust:.48; font-weight:bold; font-style:normal;			  
+	color:$txtColor;
+}
+
+.lrdiscoverwidget .inviteform{margin:0;}
+.lrdiscoverwidget .inviteform .field{margin:0 4px 0 25px;}
+.lrdiscoverwidget .site{width:100%;}
+
+
+@media only screen and (max-width: $screenSmall - 1) {    
+	.tabs-centered span{display:none;}
+}
+dl.tabs {
+	margin-bottom:0;
+	border-bottom:1px solid $tabLine;
+	}
+dl.tabs dd a{
+	background:$tabLine;
+	color:$darkerTxtColor;
+	font-family:"Magneta Condensed Bold", Georgia, 'Times New Roman', serif; font-size-adjust:.48; font-weight:bold; font-style:normal;
+}
+dl.tabs dd.spacer{
+	margin-left:1%;
+	margin-right:1%;
+}
+.tabbed{
+	background:$selectedTab;
+	color:$tabText;
+	ol, ul{
+		list-style-position: outside; 
+	}
+}
+
+.tabbed ol{
+	margin-bottom:15px;
+}
+
+
+.tabbed .panel{
+	color:$selectedTab;
+	h3{
+		color:$titleDark;
+	}
+}
+
+dl.tabs dd.active{
+	border-top:3px solid $tabLine;
+	a{
+		color:$txtColor;
+		background:$selectedTab;
+		border-color:$tabLine;
+	}
+}
+/*
+@media only screen and (min-width: 960px) {  
+	.tabs-content .twelve{
+		width:960px;
+	}
+}*/
+
+ul.tabs-content{
+	margin:0;
+}
+ul.tabs-content .tabbed{
+	padding-top:50px;
+}
+.copyright{
+	margin-bottom:0;
+	padding:4% 0 4% 0;
+	
+}
+.check{background:#ff0000;}

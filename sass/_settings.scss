@@ -1,5 +1,26 @@
 @import "foundation/common/ratios";
 
+
+// This is here just for reference from zurb-foundation v3_1_0: scss/foundation/_settings
+// $screenSmall: 768px !default;
+// $screenMedium: 1279px !default;
+// $screenXlarge: 1441px !default;
+
+// *** overrides ***
+$txtColor: #aeaeae;
+$darkerTxtColor:#aaa;
+$black: #000;
+$tabHeading: #fff;
+$topLine: #A71F30;
+$titleDark: #555;
+$tabLine: #A71F30;
+$tabText: #e5e5e5;
+$red: #A71F30;
+$lighterRed: #C82439;
+$blue: #2BA6CB;
+
+$selectedTab: #222;
+
 // Settings file containing Foundation defaults
 
 // Grid Settings
