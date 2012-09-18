@@ -16,7 +16,8 @@ dl.tabs-centered dd:first-child{margin-left:10.5%;}
 
 .centered-text{text-align:center;}
 
-dl.tabs dd{width:25%;}
+dl.tabs dd{width:25%;-webkit-border-radius: 4px;
+border-radius: 6px 6px 0 0;}
 dl.tabs dd a{
 	text-align:center;
 }
@@ -57,6 +58,8 @@ dl.tabs dd a{
 	background:$tabLine;
 	color:$darkerTxtColor;
 	font-family:"Magneta Condensed Bold", Georgia, 'Times New Roman', serif; font-size-adjust:.48; font-weight:bold; font-style:normal;
+	-webkit-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
 }
 dl.tabs dd.spacer{
 	margin-left:1%;
@@ -96,6 +99,12 @@ dl.tabs dd.active{
 		width:960px;
 	}
 }*/
+@media only screen and (max-width: 320px) {  
+	dl.tabs dd a{
+		padding-left:10px;
+	}
+}
+
 
 ul.tabs-content{
 	margin:0;
