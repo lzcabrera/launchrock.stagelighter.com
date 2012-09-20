@@ -90,7 +90,7 @@ body {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1;
-  color: #aeaeae;
+  color: #222222;
   position: relative;
   -webkit-font-smoothing: antialiased;
 }
@@ -3784,7 +3784,7 @@ dl.tabs dd {
 }
 /* line 15, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_tabs.scss */
 dl.tabs dd a {
-  color: #fbfbfb;
+  color: #6f6f6f;
   display: block;
   font-size: 14px;
   height: 40px;
@@ -3804,7 +3804,7 @@ dl.tabs dd.active {
 /* line 19, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_tabs.scss */
 dl.tabs dd.active a {
   cursor: default;
-  color: #c8c8c8;
+  color: #3c3c3c;
   background: #fff;
   border-left: 1px solid #e6e6e6;
   border-right: 1px solid #e6e6e6;
@@ -5083,7 +5083,7 @@ h1 {
 
 /* line 29, ../sass/_stagelighter.scss */
 h2.tagline {
-  color: #aeaeae;
+  color: #222222;
   font-size: 17px;
   margin-top: 0px;
   font-family: "Magneta Condensed Bold", Georgia, 'Times New Roman', serif;
@@ -5094,7 +5094,7 @@ h2.tagline {
 
 /* line 36, ../sass/_stagelighter.scss */
 h3 {
-  color: white;
+  color: #a71f30;
 }
 
 /* line 40, ../sass/_stagelighter.scss */
@@ -5103,7 +5103,7 @@ h3 {
   font-size-adjust: .48;
   font-weight: bold;
   font-style: normal;
-  color: #aeaeae;
+  color: #222222;
 }
 
 /* line 45, ../sass/_stagelighter.scss */
@@ -5136,7 +5136,7 @@ dl.tabs {
 /* line 57, ../sass/_stagelighter.scss */
 dl.tabs dd a {
   background: #a71f30;
-  color: #aaaaaa;
+  color: white;
   font-family: "Magneta Condensed Bold", Georgia, 'Times New Roman', serif;
   font-size-adjust: .48;
   font-weight: bold;
@@ -5153,8 +5153,8 @@ dl.tabs dd.spacer {
 
 /* line 68, ../sass/_stagelighter.scss */
 .tabbed {
-  background: #222222;
-  color: #e5e5e5;
+  background: #e3e3e3;
+  color: #222222;
 }
 /* line 71, ../sass/_stagelighter.scss */
 .tabbed ol, .tabbed ul {
@@ -5168,7 +5168,7 @@ dl.tabs dd.spacer {
 
 /* line 81, ../sass/_stagelighter.scss */
 .tabbed .panel {
-  color: #222222;
+  color: #555555;
 }
 /* line 83, ../sass/_stagelighter.scss */
 .tabbed .panel h3 {
@@ -5181,8 +5181,8 @@ dl.tabs dd.active {
 }
 /* line 90, ../sass/_stagelighter.scss */
 dl.tabs dd.active a {
-  color: #aeaeae;
-  background: #222222;
+  color: #222222;
+  background: #e3e3e3;
   border-color: #a71f30;
 }
 
@@ -5215,6 +5215,18 @@ ul.tabs-content .tabbed {
 }
 
 /* line 120, ../sass/_stagelighter.scss */
+#our-coachesTab .panel {
+  /*min-height:400px;*/
+}
+
+/* line 123, ../sass/_stagelighter.scss */
+#our-coachesTab .panel img {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 15px;
+}
+
+/* line 129, ../sass/_stagelighter.scss */
 .check {
   background: #ff0000;
 }

@@ -56,7 +56,7 @@ dl.tabs {
 	}
 dl.tabs dd a{
 	background:$tabLine;
-	color:$darkerTxtColor;
+	color: $white;
 	font-family:"Magneta Condensed Bold", Georgia, 'Times New Roman', serif; font-size-adjust:.48; font-weight:bold; font-style:normal;
 	-webkit-border-radius: 6px 6px 0 0;
 	border-radius: 6px 6px 0 0;
@@ -79,7 +79,7 @@ dl.tabs dd.spacer{
 
 
 .tabbed .panel{
-	color:$selectedTab;
+	color: $lighterTxtColor;
 	h3{
 		color:$titleDark;
 	}
@@ -117,4 +117,13 @@ ul.tabs-content .tabbed{
 	padding:4% 0 4% 0;
 	
 }
+#our-coachesTab .panel{
+	/*min-height:400px;*/
+}
+#our-coachesTab .panel img{
+	margin:0 auto;
+	display:block;
+	margin-bottom:15px;
+}
+
 .check{background:#ff0000;}
