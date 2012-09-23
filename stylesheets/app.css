@@ -5226,7 +5226,27 @@ ul.tabs-content .tabbed {
   margin-bottom: 15px;
 }
 
-/* line 129, ../sass/_stagelighter.scss */
+/* line 130, ../sass/_stagelighter.scss */
+.orbit-wrapper .slider-nav span {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  -o-transition: opacity 400ms;
+  transition: opacity 400ms;
+}
+/* line 131, ../sass/_stagelighter.scss */
+.orbit-wrapper:hover .slider-nav span {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/* line 133, ../sass/_stagelighter.scss */
+div.orbit-wrapper div.slider-nav span.left, div.orbit-wrapper div.slider-nav span.right {
+  display: none;
+}
+
+/* line 135, ../sass/_stagelighter.scss */
 .check {
   background: #ff0000;
 }
