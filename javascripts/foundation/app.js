@@ -30,11 +30,11 @@
       }, 0);
     });
   }
-  /*
+ 
   $(window).load(function() {
        $('#featured1').orbit({ fluid: '1x1',bullets: true,timer: false, directionalNav: true });
-	   $('#featured2').orbit({ fluid: '1x1',bullets: true,timer: false, directionalNav: true });
+	   //$('#featured2').orbit({ fluid: '1x1',bullets: true,timer: false, directionalNav: true });
    });
-   */
+ 
 
 })(jQuery, this);

@@ -5214,19 +5214,19 @@ ul.tabs-content .tabbed {
   padding: 4% 0 4% 0;
 }
 
-/* line 120, ../sass/_stagelighter.scss */
-#our-coachesTab .panel {
-  /*min-height:400px;*/
-}
-
-/* line 123, ../sass/_stagelighter.scss */
+/* line 121, ../sass/_stagelighter.scss */
 #our-coachesTab .panel img {
   margin: 0 auto;
   display: block;
   margin-bottom: 15px;
 }
 
-/* line 130, ../sass/_stagelighter.scss */
+/*
+#our-coachesTab .panel{
+	min-height:400px;
+}
+*/
+/* line 132, ../sass/_stagelighter.scss */
 .orbit-wrapper .slider-nav span {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -5235,18 +5235,18 @@ ul.tabs-content .tabbed {
   -o-transition: opacity 400ms;
   transition: opacity 400ms;
 }
-/* line 131, ../sass/_stagelighter.scss */
+/* line 133, ../sass/_stagelighter.scss */
 .orbit-wrapper:hover .slider-nav span {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
 
-/* line 133, ../sass/_stagelighter.scss */
+/* line 135, ../sass/_stagelighter.scss */
 div.orbit-wrapper div.slider-nav span.left, div.orbit-wrapper div.slider-nav span.right {
   display: none;
 }
 
-/* line 135, ../sass/_stagelighter.scss */
+/* line 137, ../sass/_stagelighter.scss */
 .check {
   background: #ff0000;
 }
