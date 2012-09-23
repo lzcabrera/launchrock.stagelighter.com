@@ -117,19 +117,20 @@ ul.tabs-content .tabbed{
 	padding:4% 0 4% 0;
 	
 }
-#our-coachesTab .panel{
-	/*min-height:400px;*/
-}
+
 #our-coachesTab .panel img{
 	margin:0 auto;
 	display:block;
 	margin-bottom:15px;
 }
-
+/*
+#our-coachesTab .panel{
+	min-height:400px;
+}
 .orbit-wrapper {
   .slider-nav span { @include opacity(0); @include single-transition(opacity, 400ms); }
   &:hover .slider-nav span { @include opacity(1); }
 }
 div.orbit-wrapper div.slider-nav span.left, div.orbit-wrapper div.slider-nav span.right{display:none;}
-
+*/
 .check{background:#ff0000;}
