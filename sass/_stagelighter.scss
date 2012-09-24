@@ -37,8 +37,10 @@ h2.tagline{
 
 h3{
 	color:$tabHeading;
+	font-family:"Magneta Condensed Bold", Georgia, 'Times New Roman', serif; font-size-adjust:.48; font-weight:bold; font-style:normal;
 }
 
+/* launchrock */
 #signupform-W92D76QR{
 	text-align:center;
 }
@@ -46,11 +48,11 @@ h3{
 	font-family:"Magneta Condensed Bold", Georgia, 'Times New Roman', serif; font-size-adjust:.57; font-weight:bold; font-style:normal;			  
 	color:$tagLine;
 	display:inline;
-
 }
 #email-W92D76QR{
 	float:none;
 	margin:0 10px;
+	padding:0px 11px
 }
 
 @media only screen and (max-width: $screenSmall - 1) {   
@@ -78,6 +80,10 @@ dl.tabs dd a{
 	-webkit-border-radius: 6px 6px 0 0;
 	border-radius: 6px 6px 0 0;
 }
+dl.tabs dd a:hover{
+	color:$selectedTab;
+}
+
 dl.tabs dd.spacer{
 	margin-left:1%;
 	margin-right:1%;
