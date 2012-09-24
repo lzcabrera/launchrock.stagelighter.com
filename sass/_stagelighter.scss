@@ -39,10 +39,25 @@ h3{
 	color:$tabHeading;
 }
 
-#instructions-W92D76QR{
-	font-family:"Magneta Condensed Bold", Georgia, 'Times New Roman', serif; font-size-adjust:.48; font-weight:bold; font-style:normal;			  
-	color:$tagLine;
+#signupform-W92D76QR{
+	text-align:center;
 }
+#instructions-W92D76QR{
+	font-family:"Magneta Condensed Bold", Georgia, 'Times New Roman', serif; font-size-adjust:.57; font-weight:bold; font-style:normal;			  
+	color:$tagLine;
+	display:inline;
+
+}
+#email-W92D76QR{
+	float:none;
+	margin:0 10px;
+}
+
+@media only screen and (max-width: $screenSmall - 1) {   
+	#instructions-W92D76QR{
+	display:block;
+	}	
+} 
 
 .lrdiscoverwidget .inviteform{margin:0;}
 .lrdiscoverwidget .inviteform .field{margin:0 4px 0 25px;}
@@ -114,6 +129,10 @@ ul.tabs-content{
 ul.tabs-content .tabbed{
 	padding-top:50px;
 }
+
+.video-laptop{float:right;
+padding-bottom:5px;}
+
 .copyright{
 	margin-bottom:0;
 	padding:4% 0 4% 0;
