@@ -1,10 +1,12 @@
-body{background:$black;}
+body{background:$selectedTab;}
 
 .top-line{
 	background:$topLine;
 	height:7px;
 }
-
+.top-background{
+	background:$upperBackground;
+}
 
 .logo{
 	padding-top:5px;
@@ -27,8 +29,8 @@ h1{
 }
 
 h2.tagline{
-	color:$txtColor;
-	font-size: ms(1);
+	color:$tagLine;
+	font-size: ms(2);
 	margin-top:0px;
 	font-family:"Magneta Condensed Bold", Georgia, 'Times New Roman', serif; font-size-adjust:.48; font-weight:bold; font-style:normal;
 }
@@ -39,7 +41,7 @@ h3{
 
 #instructions-W92D76QR{
 	font-family:"Magneta Condensed Bold", Georgia, 'Times New Roman', serif; font-size-adjust:.48; font-weight:bold; font-style:normal;			  
-	color:$txtColor;
+	color:$tagLine;
 }
 
 .lrdiscoverwidget .inviteform{margin:0;}
@@ -127,11 +129,11 @@ ul.tabs-content .tabbed{
 #our-coachesTab .panel{
 	min-height:400px;
 }
-*/
+
 .orbit-wrapper {
   .slider-nav span { @include opacity(0); @include single-transition(opacity, 400ms); }
   &:hover .slider-nav span { @include opacity(1); }
 }
 div.orbit-wrapper div.slider-nav span.left, div.orbit-wrapper div.slider-nav span.right{display:none;}
-
+*/
 .check{background:#ff0000;}
