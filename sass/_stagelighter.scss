@@ -65,6 +65,38 @@ h3{
 .lrdiscoverwidget .inviteform .field{margin:0 4px 0 25px;}
 .lrdiscoverwidget .site{width:100%;}
 
+#dlrpagesubmit-W92D76QR .share-via-email{
+	background-color:$selectedTab;
+
+	label{
+		color:$red;
+	}
+	.field-holder .field{
+		color:#fff;
+	}
+}
+
+#dlrpagesubmit-W92D76QR .share-link {
+	label{
+		color:$white;
+	}
+	.field-holder{
+		background-color:$selectedTab;
+	
+		.field{
+			color:$txtColor;
+		}
+	}
+}
+
+#dlrpagesubmit-W92D76QR .like{
+	margin:0 auto;
+}
+
+#facebookLink-W92D76QR{
+	font-weight:bold;
+	color:$blue;
+}
 
 @media only screen and (max-width: $screenSmall - 1) {    
 	.tabs-centered span{display:none;}
