@@ -1,4 +1,4 @@
-body{background:$selectedTab;}
+body{background:$white;}
 
 .top-line{
 	background:$topLine;
@@ -6,6 +6,9 @@ body{background:$selectedTab;}
 }
 .top-background{
 	background:$upperBackground;
+}
+.top-background-width{
+	width:100%;
 }
 
 .logo{
@@ -193,4 +196,4 @@ padding-bottom:5px;}
 }
 div.orbit-wrapper div.slider-nav span.left, div.orbit-wrapper div.slider-nav span.right{display:none;}
 */
-.check{background:#ff0000;}
+
