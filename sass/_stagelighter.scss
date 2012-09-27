@@ -1,4 +1,6 @@
-html{background:$selectedTab;}
+html{background:$black;}
+/* add special case for large media - portrait */
+/*html{background:$selectedTab;}*/
 
 .top-line{
 	background:$topLine;
