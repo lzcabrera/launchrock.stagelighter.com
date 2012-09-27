@@ -1,4 +1,4 @@
-body{background:$black;}
+body{}
 
 .top-line{
 	background:$topLine;
@@ -9,6 +9,8 @@ body{background:$black;}
 }
 .top-background-width{
 	width:100%;
+	background:$upperBackground;
+
 }
 
 .logo{
