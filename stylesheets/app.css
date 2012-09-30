@@ -5313,7 +5313,6 @@ ul.tabs-content .tabbed {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003198}}
   #our-coachesTab .panel {
     min-height: 400px;
-    border: 1px solid red;
   }
 }
 /*
@@ -5323,7 +5322,7 @@ ul.tabs-content .tabbed {
 }
 div.orbit-wrapper div.slider-nav span.left, div.orbit-wrapper div.slider-nav span.right{display:none;}
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003210}}
 #our-coachesTab [class*="column"] + [class*="column"]:last-child {
   float: left;
 }
