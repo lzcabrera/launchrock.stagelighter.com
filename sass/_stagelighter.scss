@@ -12,7 +12,6 @@ html{background:$black;}
 .top-background-width{
 	width:100%;
 	background:$upperBackground;
-
 }
 
 .logo{
@@ -21,15 +20,8 @@ html{background:$black;}
 	margin:0 auto;
 }
 
-dl.tabs-centered dd:first-child{margin-left:10.5%;}
-
 .centered-text{text-align:center;}
 
-dl.tabs dd{width:25%;-webkit-border-radius: 4px;
-border-radius: 6px 6px 0 0;}
-dl.tabs dd a{
-	text-align:center;
-}
 
 h1{
 	display:none;
@@ -47,10 +39,11 @@ h3{
 	font-family:"Magneta Condensed Bold", Georgia, 'Times New Roman', serif; font-size-adjust:.48; font-weight:bold; font-style:normal;
 }
 
-/* launchrock */
+/* begin: launchrock */
 #signupform-W92D76QR{
 	text-align:center;
 }
+
 #instructions-W92D76QR{
 	font-family:"Magneta Condensed Bold", Georgia, 'Times New Roman', serif; font-size-adjust:.65; font-weight:bold; font-style:normal;			  
 	/*color:$tagLine;*/
@@ -59,12 +52,6 @@ h3{
 	text-shadow: 1px 2px 1px #000;
 
 }
-#email-W92D76QR{
-	float:none;
-	margin:0 10px;
-	padding:0px 11px;
-	height:40px;
-}
 
 @media only screen and (max-width: $screenSmall - 1) {   
 	#instructions-W92D76QR{
@@ -72,99 +59,126 @@ h3{
 	}	
 } 
 
-.lrdiscoverwidget .inviteform{margin:0;}
-.lrdiscoverwidget .inviteform .field{margin:0 4px 0 25px;}
-.lrdiscoverwidget .site{width:100%;}
-
-#dlrpagesubmit-W92D76QR .share-via-email{
-	background-color:$selectedTab;
-
-	label{
-		color:$red;
-	}
-	.field-holder .field{
-		color:#fff;
-	}
+#email-W92D76QR{
+	float:none;
+	margin:0 10px;
+	padding:0px 11px;
+	height:40px;
 }
 
-#dlrpagesubmit-W92D76QR .share-link {
-	label{
-		color:$white;
-	}
-	.field-holder{
-		background-color:$selectedTab;
-	
+.lrdiscoverwidget{
+	 .inviteform{
+		margin:0;
+		
 		.field{
-			color:$txtColor;
+			margin:0 4px 0 25px;
 		}
 	}
+	.site{width:100%;}
 }
 
-#dlrpagesubmit-W92D76QR .like{
-	margin:0 auto;
+#dlrpagesubmit-W92D76QR{
+	 .share-via-email{
+		background-color:$selectedTab;
+
+		label{
+			color:$red;
+		}
+		.field-holder .field{
+			color:#fff;
+		}
+	}
+	.share-link {
+		label{
+			color:$white;
+		}
+		.field-holder{
+			background-color:$selectedTab;
+		
+			.field{
+				color:$txtColor;
+			}
+		}
+	}
+	.like{
+		margin:0 auto;
+	}
 }
 
 #facebookLink-W92D76QR{
 	font-weight:bold;
 	color:$blue;
 }
+/* end: launchrock */
+
+
+dl.tabs-centered dd:first-child{margin-left:10.5%;}
 
 @media only screen and (max-width: $screenSmall - 1) {    
 	.tabs-centered span{display:none;}
 }
+
 dl.tabs {
 	margin-bottom:0;
 	border-bottom:1px solid $tabLine;
+
+	dd{
+		width:25%;-webkit-border-radius: 4px;
+		border-radius: 6px 6px 0 0;
+
+		a{
+			text-align:center;
+			background:$tabLine;
+			color: $white;
+			font-family:"Magneta Condensed Bold", Georgia, 'Times New Roman', serif; font-size-adjust:.48; font-weight:bold; font-style:normal;
+			-webkit-border-radius: 6px 6px 0 0;
+			border-radius: 6px 6px 0 0;
+		}
+		a:hover{
+			color:$selectedTab;
+		}
+
 	}
-dl.tabs dd a{
-	background:$tabLine;
-	color: $white;
-	font-family:"Magneta Condensed Bold", Georgia, 'Times New Roman', serif; font-size-adjust:.48; font-weight:bold; font-style:normal;
-	-webkit-border-radius: 6px 6px 0 0;
-	border-radius: 6px 6px 0 0;
-}
-dl.tabs dd a:hover{
-	color:$selectedTab;
+	dd.spacer{
+		margin-left:1%;
+		margin-right:1%;
+	}
+	dd.active{
+		border-top:3px solid $tabLine;
+		a{
+			color:$txtColor;
+			background:$selectedTab;
+			border-color:$tabLine;
+		}
+	}
 }
 
-dl.tabs dd.spacer{
-	margin-left:1%;
-	margin-right:1%;
-}
 .tabbed{
 	background:$selectedTab;
 	color:$tabText;
 	ol, ul{
 		list-style-position: outside; 
 	}
-}
-
-.tabbed ol{
-	margin-bottom:15px;
-}
-
-
-.tabbed .panel{
-	color: $lighterTxtColor;
-	h3{
-		color:$titleDark;
+	ol{
+		margin-bottom:15px;
 	}
+	.panel{
+		color: $lighterTxtColor;
+		h3{
+			color:$titleDark;
+		}
+	}
+
 }
 
-dl.tabs dd.active{
-	border-top:3px solid $tabLine;
-	a{
-		color:$txtColor;
-		background:$selectedTab;
-		border-color:$tabLine;
-	}
-}
+
 /*
 @media only screen and (min-width: 960px) {  
 	.tabs-content .twelve{
 		width:960px;
 	}
 }*/
+
 @media only screen and (max-width: 320px) {  
 	dl.tabs dd a{
 		padding-left:10px;
@@ -174,13 +188,16 @@ dl.tabs dd.active{
 
 ul.tabs-content{
 	margin:0;
-}
-ul.tabs-content .tabbed{
-	padding-top:50px;
+
+	.tabbed{
+		padding-top:50px;
+	}
 }
 
-.video-laptop{float:right;
-padding-bottom:5px;}
+.video-laptop{
+	float:right;
+	padding-bottom:5px;
+}
 
 .copyright{
 	margin-bottom:0;
@@ -188,25 +205,22 @@ padding-bottom:5px;}
 	
 }
 
-#our-coachesTab .panel img{
-	margin:0 auto;
-	display:block;
-	margin-bottom:15px;
+#our-coachesTab{
+ 	.panel img{
+		margin:0 auto;
+		display:block;
+		margin-bottom:15px;
+	}
+	[class*="column"] + [class*="column"]:last-child{
+		float:left;
+	}
 }
 
 @media only screen and (min-width: $screenSmall) { 
-#our-coachesTab .panel{
-	min-height:350px;
+	#our-coachesTab .panel{
+		min-height:375px;
+	}
 }
-}
-/*
-.orbit-wrapper {
-  .slider-nav span { @include opacity(0); @include single-transition(opacity, 400ms); }
-  &:hover .slider-nav span { @include opacity(1); }
-}
-div.orbit-wrapper div.slider-nav span.left, div.orbit-wrapper div.slider-nav span.right{display:none;}
-*/
 
-#our-coachesTab [class*="column"] + [class*="column"]:last-child{
-	float:left;
-}
+
+
