@@ -988,7 +988,7 @@ form.custom .custom.disabled {
 
 /* Correct FF custom dropdown height */
 @-moz-document url-prefix() {
-  /* line 124, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/common/_forms.scss */
+  /* line 124, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/common/_forms.scss */
   form.custom div.custom.dropdown a.selector {
     height: 30px;
   }
@@ -1796,28 +1796,28 @@ input[type=submit].button, button.button {
 }
 /* Correct FF button padding */
 @-moz-document url-prefix() {
-  /* line 72, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
+  /* line 72, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
   button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner {
     border: none;
     padding: 0;
   }
 
-  /* line 73, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
+  /* line 73, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
   input[type="submit"].tiny.button {
     padding: 3px 10px 4px;
   }
 
-  /* line 74, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
+  /* line 74, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
   input[type="submit"].small.button {
     padding: 5px 14px 6px;
   }
 
-  /* line 75, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
+  /* line 75, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
   input[type="submit"].button, input[type=submit].medium.button {
     padding: 8px 20px 9px;
   }
 
-  /* line 76, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
+  /* line 76, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
   input[type="submit"].large.button {
     padding: 13px 30px 14px;
   }
@@ -2946,12 +2946,12 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 
 /* Firefox Fixes */
 @-moz-document url-prefix() {
-  /* line 127, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_topbar.scss */
+  /* line 127, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_topbar.scss */
   .top-bar ul li .button.small {
     padding-bottom: 6px;
   }
 
-  /* line 128, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_topbar.scss */
+  /* line 128, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_topbar.scss */
   .top-bar ul li.search form input[type=search] {
     font-size: 14px;
     height: 22px;
@@ -5312,7 +5312,7 @@ ul.tabs-content .tabbed {
 @media only screen and (min-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003198}}
   #our-coachesTab .panel {
-    min-height: 400px;
+    min-height: 350px;
   }
 }
 /*
