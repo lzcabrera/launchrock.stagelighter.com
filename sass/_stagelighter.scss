@@ -205,3 +205,6 @@ padding-bottom:5px;}
 div.orbit-wrapper div.slider-nav span.left, div.orbit-wrapper div.slider-nav span.right{display:none;}
 */
 
+#our-coachesTab [class*="column"] + [class*="column"]:last-child{
+	float:left;
+}
