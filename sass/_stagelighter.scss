@@ -222,6 +222,11 @@ ul.tabs-content{
 	[class*="column"] + [class*="column"]:last-child{
 		float:left;
 	}
+	h3{
+		font-size-adjust:0.35;
+		color: $blue;
+		margin-bottom:0;
+	}
 }
 
 #aboutTab .panel{
