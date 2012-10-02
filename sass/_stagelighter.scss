@@ -21,7 +21,7 @@ html{background:$black;}
 }
 
 .centered-text{text-align:center;}
-
+.panel.radius{border-radius:5px;}
 
 h1{
 	display:none;
@@ -153,6 +153,9 @@ dl.tabs {
 	}
 }
 
+
+
+
 .tabbed{
 	background:$selectedTab;
 	color:$tabText;
@@ -161,6 +164,7 @@ dl.tabs {
 	}
 	ol{
 		margin-bottom:15px;
+		margin-left:40px;
 	}
 	.panel{
 		color: $lighterTxtColor;
@@ -171,6 +175,9 @@ dl.tabs {
 
 }
 
+#how-it-worksTab .panel{
+	padding:10%;
+}
 
 /*
 @media only screen and (min-width: 960px) {  
@@ -202,7 +209,8 @@ ul.tabs-content{
 .copyright{
 	margin-bottom:0;
 	padding:4% 0 4% 0;
-	
+	font-size-adjust:.45;
+	color:#888;
 }
 
 #our-coachesTab{
@@ -214,6 +222,10 @@ ul.tabs-content{
 	[class*="column"] + [class*="column"]:last-child{
 		float:left;
 	}
+}
+
+#aboutTab .panel{
+	padding: 10%;
 }
 
 @media only screen and (min-width: $screenSmall) { 
