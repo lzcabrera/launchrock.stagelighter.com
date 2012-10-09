@@ -77,6 +77,15 @@ h3{
 	.site{width:100%;}
 }
 
+#invite-label-W92D76QR{
+	background-color: $lightGrey;
+    border-radius: 4px 4px 4px 4px;
+    margin: 0 auto 2em;
+    max-width: 600px;
+    padding: 10px;
+    text-align: center;
+}
+
 #dlrpagesubmit-W92D76QR{
 	 .share-via-email{
 		background-color:$selectedTab;
@@ -216,7 +225,7 @@ ul.tabs-content{
 	margin-bottom:0;
 	padding:4% 0 4% 0;
 	font-size-adjust:.45;
-	color:#888;
+	color:$lightGrey;
 }
 
 #our-coachesTab{

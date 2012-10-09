@@ -988,7 +988,7 @@ form.custom .custom.disabled {
 
 /* Correct FF custom dropdown height */
 @-moz-document url-prefix() {
-  /* line 124, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/common/_forms.scss */
+  /* line 124, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/common/_forms.scss */
   form.custom div.custom.dropdown a.selector {
     height: 30px;
   }
@@ -1796,28 +1796,28 @@ input[type=submit].button, button.button {
 }
 /* Correct FF button padding */
 @-moz-document url-prefix() {
-  /* line 72, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
+  /* line 72, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
   button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner {
     border: none;
     padding: 0;
   }
 
-  /* line 73, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
+  /* line 73, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
   input[type="submit"].tiny.button {
     padding: 3px 10px 4px;
   }
 
-  /* line 74, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
+  /* line 74, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
   input[type="submit"].small.button {
     padding: 5px 14px 6px;
   }
 
-  /* line 75, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
+  /* line 75, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
   input[type="submit"].button, input[type=submit].medium.button {
     padding: 8px 20px 9px;
   }
 
-  /* line 76, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
+  /* line 76, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_buttons.scss */
   input[type="submit"].large.button {
     padding: 13px 30px 14px;
   }
@@ -2946,12 +2946,12 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 
 /* Firefox Fixes */
 @-moz-document url-prefix() {
-  /* line 127, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_topbar.scss */
+  /* line 127, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_topbar.scss */
   .top-bar ul li .button.small {
     padding-bottom: 6px;
   }
 
-  /* line 128, ../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_topbar.scss */
+  /* line 128, /Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/scss/foundation/components/modules/_topbar.scss */
   .top-bar ul li.search form input[type=search] {
     font-size: 14px;
     height: 22px;
@@ -5147,43 +5147,53 @@ h3 {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\0000380}}
+#invite-label-W92D76QR {
+  background-color: #888888;
+  border-radius: 4px 4px 4px 4px;
+  margin: 0 auto 2em;
+  max-width: 600px;
+  padding: 10px;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\0000390}}
 #dlrpagesubmit-W92D76QR .share-via-email {
   background-color: #e3e3e3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\0000393}}
 #dlrpagesubmit-W92D76QR .share-via-email label {
   color: #a71f30;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\0000396}}
 #dlrpagesubmit-W92D76QR .share-via-email .field-holder .field {
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003101}}
 #dlrpagesubmit-W92D76QR .share-link label {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003104}}
 #dlrpagesubmit-W92D76QR .share-link .field-holder {
   background-color: #e3e3e3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003107}}
 #dlrpagesubmit-W92D76QR .share-link .field-holder .field {
   color: #222222;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003112}}
 #dlrpagesubmit-W92D76QR .like {
   margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003117}}
 #facebookLink-W92D76QR {
   font-weight: bold;
   color: #2ba6cb;
 }
 
 /* end: launchrock */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003123}}
 .tabs-wrapper {
   max-width: 1160px;
   text-align: center;
@@ -5191,29 +5201,29 @@ h3 {
   /*border:1px solid blue;*/
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003130}}
 dl.tabs-centered dd:first-child {
   margin-left: 10.5%;
 }
 
 @media only screen and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003133}}
   .tabs-centered span {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003136}}
 dl.tabs {
   margin-bottom: 0;
   border-bottom: 1px solid #a71f30;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003140}}
 dl.tabs dd {
   width: 25%;
   -webkit-border-radius: 4px;
   border-radius: 6px 6px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003144}}
 dl.tabs dd a {
   text-align: center;
   background: #a71f30;
@@ -5225,50 +5235,50 @@ dl.tabs dd a {
   -webkit-border-radius: 6px 6px 0 0;
   border-radius: 6px 6px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003152}}
 dl.tabs dd a:hover {
   color: #e3e3e3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003157}}
 dl.tabs dd.spacer {
   margin-left: 1%;
   margin-right: 1%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003161}}
 dl.tabs dd.active {
   border-top: 3px solid #a71f30;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003163}}
 dl.tabs dd.active a {
   color: #222222;
   background: #e3e3e3;
   border-color: #a71f30;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003174}}
 .tabbed {
   background: #e3e3e3;
   color: #222222;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003177}}
 .tabbed ol, .tabbed ul {
   list-style-position: outside;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003180}}
 .tabbed ol {
   margin-bottom: 15px;
   margin-left: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003184}}
 .tabbed .panel {
   color: #555555;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003186}}
 .tabbed .panel h3 {
   color: #555555;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003193}}
 #how-it-worksTab .panel {
   padding: 10%;
 }
@@ -5280,58 +5290,58 @@ dl.tabs dd.active a {
 	}
 }*/
 @media only screen and (max-width: 320px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003205}}
   dl.tabs dd a {
     padding-left: 10px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003211}}
 ul.tabs-content {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003214}}
 ul.tabs-content .tabbed {
   padding-top: 50px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003219}}
 .video-laptop {
   float: right;
   padding-bottom: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003224}}
 .copyright {
   margin-bottom: 0;
   padding: 4% 0 4% 0;
   font-size-adjust: .45;
-  color: #888;
+  color: #888888;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003232}}
 #our-coachesTab .panel img {
   margin: 0 auto;
   display: block;
   margin-bottom: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003237}}
 #our-coachesTab [class*="column"] + [class*="column"]:last-child {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003240}}
 #our-coachesTab h3 {
   font-size-adjust: 0.35;
   color: #2ba6cb;
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003247}}
 #aboutTab .panel {
   padding: 10%;
 }
 
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003252}}
   #our-coachesTab .panel {
     min-height: 375px;
   }
