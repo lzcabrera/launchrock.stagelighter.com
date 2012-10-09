@@ -93,6 +93,7 @@ h3{
 		label{
 			color:$red;
 			font-size: ms(2);
+			text-align:center;
 		}
 		.field-holder .field{
 			color:#fff;
@@ -239,7 +240,7 @@ ul.tabs-content{
 		float:left;
 	}
 	h3{
-		font-size-adjust:0.35;
+		font-size-adjust:0.3;
 		color: $blue;
 		margin-bottom:0;
 	}
