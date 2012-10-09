@@ -95,7 +95,7 @@ h3{
 			font-size: ms(2);
 			text-align:center;
 		}
-		input{
+		input[type="text"]{
 			height:12px;
 			padding:0;
 		}
@@ -107,7 +107,7 @@ h3{
 		label{
 			color:$white;
 		}
-		input{
+		input[type="text"]{
 			height:12px;
 			padding:0;
 		}
