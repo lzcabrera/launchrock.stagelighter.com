@@ -5168,7 +5168,7 @@ h3 {
   text-align: center;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\0000398}}
-#dlrpagesubmit-W92D76QR .share-via-email input {
+#dlrpagesubmit-W92D76QR .share-via-email input[type="text"] {
   height: 12px;
   padding: 0;
 }
@@ -5181,7 +5181,7 @@ h3 {
   color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003110}}
-#dlrpagesubmit-W92D76QR .share-link input {
+#dlrpagesubmit-W92D76QR .share-link input[type="text"] {
   height: 12px;
   padding: 0;
 }
