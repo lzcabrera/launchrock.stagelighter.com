@@ -95,6 +95,10 @@ h3{
 			font-size: ms(2);
 			text-align:center;
 		}
+		input{
+			height:12px;
+			padding:0;
+		}
 		.field-holder .field{
 			color:#fff;
 		}
@@ -102,6 +106,10 @@ h3{
 	.share-link {
 		label{
 			color:$white;
+		}
+		input{
+			height:12px;
+			padding:0;
 		}
 		.field-holder{
 			background-color:$selectedTab;
