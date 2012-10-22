@@ -1,4 +1,5 @@
 require 'zurb-foundation'
+require "/Users/laura/.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.1.0/lib/zurb-foundation.rb"
 # Require any additional compass plugins here.
 
 
