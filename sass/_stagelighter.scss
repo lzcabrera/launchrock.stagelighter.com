@@ -223,7 +223,7 @@ dl.tabs {
 
 		h3,h4, .tab-intro{
 			color:$titleDark;
-			@include text-shadow(0 1px 0 rgba(200, 200, 200, 0.75));
+			/*@include text-shadow(0 1px 0 rgba(200, 200, 200, 0.75));*/
 		}
 	}
 
