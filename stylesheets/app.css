@@ -5207,7 +5207,8 @@ h3 {
 .lrdiscoverwidget {
   border: 2px solid blue;
   /*#site-title-MJBMKVEW,
-  #site-logo-MJBMKVEW,*/
+  #site-logo-MJBMKVEW,
+  #site-tagline-MJBMKVEW,*/
   	/*
   	.inviteform{
   		margin:0;
@@ -5245,7 +5246,7 @@ h3 {
   padding: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003167}}
-.lrdiscoverwidget #site-tagline-MJBMKVEW {
+.lrdiscoverwidget #inviteformMJBMKVEW {
   display: none;
 }
 
