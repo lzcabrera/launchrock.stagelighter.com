@@ -5251,6 +5251,7 @@ h3 {
 .lrdiscoverwidget .site {
   width: 100%;
   padding: 0;
+  display: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003172}}
 .lrdiscoverwidget #inviteformMJBMKVEW,
