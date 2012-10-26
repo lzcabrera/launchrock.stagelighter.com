@@ -5243,11 +5243,7 @@ h3 {
   padding: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003167}}
-.lrdiscoverwidget #site-title-MJBMKVEW,
-.lrdiscoverwidget #site-logo-MJBMKVEW,
-.lrdiscoverwidget #site-tagline-MJBMKVEW,
-.lrdiscoverwidget #information-MJBMKVEW,
-.lrdiscoverwidget #dlrpagesubmit-MJBMKVEW {
+.lrdiscoverwidget #site-title-MJBMKVEW {
   display: none;
 }
 
