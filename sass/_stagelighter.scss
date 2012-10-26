@@ -149,10 +149,17 @@ h3{
 
 
 .lrdiscoverwidget{
-	.site{
+	/*.site{
 		width:100%;
 		padding:0;
 		display:none;
+	}*/
+
+	#inviteformMJBMKVEW,
+	#information-MJBMKVEW,
+	#dlrpagesubmit-MJBMKVEW,
+	.site-powered-by{
+		border:2px solid blue;
 	}
 }
 
