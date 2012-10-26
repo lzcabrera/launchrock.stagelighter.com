@@ -5220,7 +5220,7 @@ h3 {
   position: absolute;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003167}}
-.lrdiscoverwidget #email-MJBMKVEW {
+.lrdiscoverwidget #email-MJBMKVEW, .lrdiscoverwidget #submit-MJBMKVEW {
   display: none;
 }
 
