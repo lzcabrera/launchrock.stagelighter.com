@@ -5417,7 +5417,7 @@ blockquote span img {
 blockquote span {
   display: block;
   position: absolute;
-  bottom: -40px;
+  bottom: -45px;
   left: 30px;
   color: #555555;
   font-style: normal;
