@@ -307,6 +307,11 @@ ul.tabs-content{
 
 	}
 
+	
+}
+
+@media only screen and (max-width: $screenSmall) { 
+
 	.tabbed h3{
 		font-size-adjust:0.5;
 	}
