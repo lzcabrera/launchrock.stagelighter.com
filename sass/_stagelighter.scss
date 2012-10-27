@@ -287,7 +287,7 @@ ul.tabs-content{
 		float:left;
 	}
 	h4{
-		font-size-adjust:0.3;
+		font-size-adjust:0.2;
 		color: $blue;
 		margin-bottom:0;
 	}
@@ -302,8 +302,7 @@ ul.tabs-content{
 
 @media only screen and (min-width: $screenSmall) { 
 	#our-coachesTab .panel{
-		/*min-height:375px;*/
-		width:100%;
+		min-height:375px;
 
 	}
 }
