@@ -97,7 +97,7 @@
       }
     */
 
-
+      $('.touch #player .img').css({ opacity: 1 });
     
     //function onYouTubeIframeAPIReady() {
       
