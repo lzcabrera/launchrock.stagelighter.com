@@ -36,6 +36,9 @@
 	<link rel="stylesheet" href="stylesheets/app.css">
 	
 	<script src="javascripts/foundation/modernizr.foundation.js"></script>
+
+	<!-- holder.js -->
+	<script src="javascripts/holder.js"></script>
 	
 	<!-- IE Fix for HTML5 Tags -->
 	<!--[if lt IE 9]>
@@ -72,24 +75,32 @@
 					<h2 class="tk-lobster tagline centered-text">Get Personal Feedback and Advice from Broadway’s Top Pros</h2>
 					<div class="row">
 						<div class="seven columns centered">
-							<div class="flex-video">
-								<iframe frameborder="0" src="http://www.youtube.com/embed/cP3eRHyPMjc?rel=0&amp;modestbranding=1&amp;showinfo=0&amp;autohide=1" height="315" width="560"></iframe>
-							</div>
-
+			
+					      	<div class="flex-video">
+					      		<div id="player" class="video">
+					      			<img src="/images/What-Is-Stagelighter-1.jpg"/>
+					          		<img class="play" src="/images/yt_play_button_red-screen.png" alt="Play" />
+					        	</div> 
+					      	</div>
 							
 						</div>
 					</div>
 					<div class="row">
 						<div class="twelve columns centered">
+								
 								<div rel="W92D76QR" class="lrdiscoverwidget" 
 								data-logo="off" 
 								data-background="off" 
 								data-share-url="www.stagelighter.com" data-css="http://laura-cabrera.com/launchrock/stagelighter.css"></div>
-								<script type="text/javascript" src="http://launchrock-ignition.s3.amazonaws.com/ignition.1.1.js"></script>
-								<!--<div rel="MJBMKVEW" class="lrdiscoverwidget" data-logo="off" data-background="off" data-share-url="laura-cabrera.com/launchrock.stagelighter.com" data-css="http://laura-cabrera.com/launchrock/stagelighter.css"></div><script type="text/javascript" src="http://launchrock-ignition.s3.amazonaws.com/ignition.1.1.js"></script>-->
-
-
 								
+								<script type="text/javascript" src="http://launchrock-ignition.s3.amazonaws.com/ignition.1.1.js"></script>
+								<!--
+								
+								
+								<div rel="MJBMKVEW" class="lrdiscoverwidget" data-logo="off" data-background="off" data-share-url="laura-cabrera.com/launchrock.stagelighter.com" data-css="http://laura-cabrera.com/launchrock/stagelighter.css"></div>
+
+								<script type="text/javascript" src="http://launchrock-ignition.s3.amazonaws.com/ignition.1.1.js"></script>
+								-->
 						</div>
 						<!-- launchrock -->
 					</div>	
@@ -311,6 +322,7 @@
 	<!--<script src="javascripts/foundation/jquery.foundation.tooltips.js"></script>-->
 	
 	<script src="javascripts/foundation/jquery.placeholder.js"></script>
+	
 	
 	
   <!-- Application Javascript, safe to override -->

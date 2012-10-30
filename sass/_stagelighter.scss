@@ -282,6 +282,8 @@ ul.tabs-content{
 		margin:0 auto;
 		display:block;
 		margin-bottom:15px;
+		-webkit-filter: unquote('grayscale(#{$percent})');
+		
 	}
 	[class*="column"] + [class*="column"]:last-child{
 		float:left;
@@ -306,7 +308,7 @@ ul.tabs-content{
 	}
 }
 
-
+/* testimonial */
 blockquote {
   position: relative;
   margin: 5px 5px 70px 5px;
@@ -359,6 +361,23 @@ blockquote:after {
 .testimonial-panel > :last-child{
 	margin-bottom:50px;
 }
+
+/* video */
+.video {
+	position:relative;
+}
+
+.video img.play {
+opacity:0;
+position: absolute;
+left: 0;    
+top: 0;
+}
+.video:hover img.play {
+opacity:1;
+}
+
+
 
 
 

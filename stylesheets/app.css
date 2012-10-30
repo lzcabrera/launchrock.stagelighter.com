@@ -5370,29 +5370,31 @@ ul.tabs-content .tabbed {
   margin: 0 auto;
   display: block;
   margin-bottom: 15px;
+  -webkit-filter: grayscale(100%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003288}}
 #our-coachesTab [class*="column"] + [class*="column"]:last-child {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003291}}
 #our-coachesTab h4 {
   color: #2ba6cb;
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003298}}
 #aboutTab h3 {
   margin-bottom: 30px;
 }
 
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003303}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003305}}
   #our-coachesTab .panel {
     min-height: 445px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003310}}
+/* testimonial */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003312}}
 blockquote {
   position: relative;
   margin: 5px 5px 70px 5px;
@@ -5406,14 +5408,14 @@ blockquote {
   text-shadow: none;
   background: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003325}}
 blockquote span img {
   width: 50px;
   float: left;
   margin-top: -6px;
   margin-left: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003332}}
 blockquote span {
   display: block;
   position: absolute;
@@ -5423,12 +5425,12 @@ blockquote span {
   font-style: normal;
   font-size: 80%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003342}}
 blockquote a {
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003348}}
 blockquote:after {
   content: "";
   position: absolute;
@@ -5445,7 +5447,26 @@ blockquote:after {
   width: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003361}}
 .testimonial-panel > :last-child {
   margin-bottom: 50px;
+}
+
+/* video */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003366}}
+.video {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003370}}
+.video img.play {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/launchrock\.stagelighter\.com\/sass\/_stagelighter\.scss}line{font-family:\00003376}}
+.video:hover img.play {
+  opacity: 1;
 }
