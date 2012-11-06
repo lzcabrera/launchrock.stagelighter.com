@@ -19,6 +19,9 @@ html{background:$black;}
 	
 }
 
+.bg-gradient{
+	background:url("/images/gradient.png") 50% 0% no-repeat;
+}
 .logo{
 	padding-top:5px;
 	display:block;
@@ -361,6 +364,7 @@ blockquote:after {
 .testimonial-panel > :last-child{
 	margin-bottom:50px;
 }
+
 
 /* video */
 .video {
