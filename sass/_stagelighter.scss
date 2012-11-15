@@ -309,13 +309,17 @@ ul.tabs-content{
 		min-height:445px;
 
 	}
+	.flex-video{
+		margin-bottom:0;
+		padding-bottom:60%;
+	}
 }
 
 /* testimonial */
 blockquote {
   position: relative;
   margin: 5px 5px 70px 5px;
-  text-indent: 10px;
+  /*text-indent: 10px;*/
   padding: 15px 15px 15px 25px;
   border-radius: 20px;
   color: #222;
@@ -328,14 +332,13 @@ blockquote {
   span img {
   	width: 50px;
   	float: left;
-  	margin-top: -6px;  
-  	margin-left:25px;
+  	margin: -6px 15px 0px 25px;
 	}
 
 	span {
 	  display: block;
 	  position: absolute;
-	  bottom: -45px;
+	  bottom: -65px;
 	  left: 30px;
 	  color: $darkerGrey;
 	  font-style:normal;
@@ -362,7 +365,7 @@ blockquote:after {
 }
 
 .testimonial-panel > :last-child{
-	margin-bottom:50px;
+	margin-bottom:70px;
 }
 
 
@@ -383,7 +386,5 @@ opacity:1;
 
 
 
-.flex-video{
-	margin-bottom:0;
-}
+
 
