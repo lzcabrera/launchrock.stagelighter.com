@@ -355,18 +355,7 @@ blockquote {
 
 }
 
-@media only screen and (max-width: 320px) {  
 
-	blockquote{
-		span{
-			bottom:-100px;
-		}
-		span img{
-			margin-bottom:30px;
-		}
-	}
-
-}
 
 blockquote:after {
 	content:"";
@@ -385,6 +374,23 @@ blockquote:after {
 	margin-bottom:70px;
 }
 
+@media only screen and (max-width: 320px) {  
+
+	blockquote{
+		span{
+			bottom:-110px;
+		}
+		span img{
+			margin-bottom:30px;
+		}
+	}
+
+	.testimonial-panel > :last-child{
+		margin-bottom:100px;
+	}
+
+
+}
 
 /* video */
 .video {
