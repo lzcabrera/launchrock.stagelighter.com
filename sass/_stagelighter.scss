@@ -328,11 +328,15 @@ blockquote {
   line-height: 20px;
   text-shadow: none;
   background: #fff;
+
+
   
   span img {
   	width: 50px;
   	float: left;
-  	margin: -6px 15px 0px 25px;
+  	/*margin: -6px 15px 0px 25px;*/
+  	margin-top: -6px;  
+  	margin-left:25px;
 	}
 
 	span {
@@ -370,9 +374,14 @@ blockquote:after {
     width:0;
 }
 
-.testimonial-panel > :last-child{
+.testimonial-panel > blockquote:last-child{
 	margin-bottom:70px;
 }
+
+blockquote + blockquote {
+	margin-top:90px;
+}
+
 
 @media only screen and (max-width: 320px) {  
 
@@ -388,7 +397,6 @@ blockquote:after {
 	.testimonial-panel > :last-child{
 		margin-bottom:120px;
 	}
-
 
 }
 
@@ -407,6 +415,21 @@ top: 0;
 opacity:1;
 }
 
+blockquote + blockquote {margin-top:90px;}
+
+.button.radius.login{
+	float:right;
+	right:15px;
+	background-color:$topLine;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-color:#7a1824;
+	border-top-width:0px;
+	box-shadow: inset 0px -1px rgba(255, 255, 255, 0.5);
+	            
+	/*border-radius:0px;
+	-webkit-border-radius:0px;*/
+}
 
 
 
