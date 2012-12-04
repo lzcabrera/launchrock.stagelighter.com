@@ -26,6 +26,7 @@ html{background:$black;}
 	padding-top:5px;
 	display:block;
 	margin:0 auto;
+	clear:both;
 }
 
 .centered-text{text-align:center;}
@@ -406,14 +407,15 @@ blockquote + blockquote {
 }
 
 .video img.play {
-opacity:0;
+/*opacity:0;*/
+cursor:pointer;
 position: absolute;
 left: 0;    
 top: 0;
 }
-.video:hover img.play {
+/*.video:hover img.play {
 opacity:1;
-}
+}*/
 
 blockquote + blockquote {margin-top:90px;}
 
